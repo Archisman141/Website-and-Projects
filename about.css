@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background: radial-gradient(circle at 10% 50%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    
+}
+.head{
+    background-image: url(about_us.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position-y: -10vw;
+    background-position-x: 0vh;
+    display: flex;
+}
+.badges-lable{
+    align-self: flex-end;
+}
+input, button{
+    color: black;
+    font-weight: 600;
+    max-height: 30px;
+    border-top: none;
+}
+.topmenu{
+    position: fixed;
+    top: 2px;
+    background-color: #8b82821f;
+    border-radius: 10px;
+}
+.login{
+    margin-top: -20px;
+    border-radius: 25px;
+    margin-right: -39px;
+    font-size: 16px;
+    line-height: 1.5;
+    z-index: 5;
+    border: 3px solid rgb(238, 238, 238);
+    /* background-color: rgb(0, 255, 38); */
+    background-color: white;
+    color: black; 
+    border-radius: 2px;
+    padding: 5%; 
+}
+.register{
+    background-color: rgb(34, 16, 156);
+    border-radius: 2px;
+    padding: 5%;
+}
+
+.nav-logo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: crimson;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.button{
+    background-color: transparent;
+    color: aliceblue;
+    /* border: 2px solid gray; */
+    font-size: medium;
+    max-width: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.register:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+.login:hover{
+    /* color: rgb(28, 122, 205); */
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+a:hover{
+    color: rgb(252, 97, 0);
+    border: 1px solid rgba(230, 91, 11,0.3);
+}
+.about{
+    border: 2px solid salmon;
+}
